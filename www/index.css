@@ -462,3 +462,21 @@ input {
 img {
   max-width: 100%;
 }
+
+.projects {
+  background-color: #f3f4f6;
+  padding: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  .projects {
+    background-color: var(--nc-bg-2);
+    border-color: var(--nc-bg-3);
+  }
+  .signature {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
